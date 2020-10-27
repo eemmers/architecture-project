@@ -1,29 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-    <header>
-    <h1>Straight to the Point Archery</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="lessons.html">Lessons</a>
-      <a href="#">About</a>
-      <a href="#">Instructors</a>
-      <a href="#">Schedule</a>
-    </nav>
-  </header>
-    <h2>Home</h2>
-    <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training <br>
-      facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors. </p>
-      <footer>
-      <p>Straight to the Point Archery<br>
-        528 Nock Point Ln<br>
-        Tacoma, WA 98412<br>
-        archery-education@example.com<br>
-        (253)555-1010</p>
-    </footer>
+        <div class="grid-container">
+      <div class="grid-item-1-header">
+        <h1>Straight to the Point Archery</h1>
+      </div>
+      <div class="grid-item-2-nav">
+        <a href="index.html">Home</a>
+        <a href="lessons.html">Lessons</a>
+        <a href="#">About</a>
+        <a href="#">Instructors</a>
+      </div>
+     <div class="grid-item-3-content">
+       <p>Straight to the Point Archery is a non profit archery education center founded in 2005 by Giap Nguyen.  Our state of the art educational and training
+         facility incorporates detailed technical video analysis combined with generations of archery experience from certified coaches and instructors. </p>
+       </div>
+      <div class="grid-item-4-video">
+      <audio id="audio" controls>
+        <source src="archery.mp3">
+        <source src="archery.ogg">
+        <source src="archery.wav">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="grid-item-5-image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2019-09-07_-_Archery_World_Cup_Final_-_Men%27s_Recurve_-_Photo_007.jpg/800px-2019-09-07_-_Archery_World_Cup_Final_-_Men%27s_Recurve_-_Photo_007.jpg" alt="Man shooting bow">
+      </div>
+      <div class=grid-item-6-footer>
+        <p><strong>Straight to the Point Archery</strong><br>
+          528 Nock Point Ln<br>
+          Tacoma, WA 98412<br>
+          <a href="mailto:archery-education@example.com">archery-education@example.com</a><br>
+          (253)555-1010</p>
+     </div>
+   </div>
 </body>
 </html>
